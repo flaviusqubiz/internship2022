@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+.panel {
+    background-color: #1b183d;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.panel > div, .some_header > div, .mini_check > div {
+    margin: 10px;
+    text-align: center;
+}
+
+.some_header, .mini_check, .add_ons_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini_check {
+    background-color: #413963;
+    width: 95%;
+}
+
+.mini_check a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.some_header ul {
+    list-style-type: none;
+    position: relative;
+    top: -25px;
+}
+
+.some_header ul i {
+    position: relative;
+    top: 8px;
+}
+
+.some_header ul li {
+    display: inline;
+    font-size: 15px;
+    border-right: 1px solid #bbb;
+    padding: 15px;
+}
+
+.some_header ul li:last-child {
+    border-right: none;
+}
+
+.some_header ul li a {
+    text-decoration: none;
+    position: relative;
+    left: -3px;
+}
+
+.some_menu ul, .add_ons_menu ul {
+    list-style-type: none;
+}
+
+.some_menu ul a, .add_ons_menu ul a {
+    text-decoration: none;
+}
+
+.some_menu ul li {
+    display: inline;
+    font-size: 20px;
+    padding: 0 30px;
+}
+
+.some_menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.some_menu ul div {
+    display: inline-block;
+    position: relative;
+}
+
+.some_menu ul div i {
+    position: absolute;
+    top: -115%;
+    left: 33%;
+}
+
+.active a {
+    color: green;
+}
+
+.add_ons_menu {
+    position: relative;
+    border-right: 1px solid #ddd;
+}
+
+.add_ons_menu ul {
+    text-align: left;
+}
+
+.add_ons_menu ul li {
+    padding: 10px 0;
+}
+
+.some_button {
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+}
+
+.some_button button {
+    padding: 5px 15px;
+    opacity: 0.5;
+}
+
+.second_part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cost p, .cost strong{
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+
+.cost p{
+    bottom: 6%;
+}
